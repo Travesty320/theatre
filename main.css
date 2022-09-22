@@ -1,4 +1,4 @@
-.flexbox-container{
+.flexbox-container {
     background-color: black;
     height: 100px;
     width: auto;
@@ -6,43 +6,113 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
 }
-#GT{
+
+#GT {
     padding-left: 50px;
     padding-top: 10px;
 }
 
-#links{
+#links {
     color: black;
     display: inline;
     margin-inline-start: 400px;
-    margin-top: 10px;
-
-}
-#link{
+    margin-top: 30px;
     color: white;
-}
-nav li{
-    display: inline;
     padding: left 50px;
     align-items: right;
     padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-right: 75px;
 }
 
-.hero-image{
+#link {
+    color: white;
+    padding: left 50px;
+    align-items: right;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline;
+}
+
+.hero-image {
     background-image: url("/bgimg.jpg");
-    height: 50%;
+    height: 500px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: auto;
 }
-.hero-text{
+
+.hero-text {
     text-align: center;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexbox-container-2 {
+    border-style: solid;
+    border-radius: 0%;
+    height: 15px;
+    width: 50%;
+    background-color: lightgray;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 350px;
+    margin-right: 800px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.flexbox-item-date {
+    position: relative;
+}
+
+.break {
+    margin-left: 350px;
+    margin-right: 800px;
+    width: 52%;
+    margin-top: 20px;
+}
+
+.raisin {
+    max-width: 30%;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+#image{
+    padding-right: 50px;
+}
+#imgtext{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    padding-right: 100px; 
+    width: 100%;
+    text-size-adjust: 100%;
+}
+
+#button{
+    width: 60%;
+    height: 30%;
+    background-color: yellow;
+    padding: left 50px; ;
 }
